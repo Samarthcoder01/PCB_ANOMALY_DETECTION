@@ -49,6 +49,8 @@ cd PCB_Thermal_Anomaly_Detection
 ```bash
 pip install -r requirements.txt  
 
+---
+
 ## 🛠️ **Usage**  
 
 ### **Prepare Your Dataset**  
@@ -65,14 +67,20 @@ python detect.py --model_path models/trained_model.h5
 # Launch the Pygame Interface
 python main.py  
 
+---
+
 ## 📊 Dataset Structure
 - **data/images/**: Contains PCB images.
 - **data/annotations/**: Contains annotation files in **JSON** format.
+
+---
 
 ## 🧠 Model Architecture
 Our model is built on a **Convolutional Neural Network (CNN)** designed to:
 - Handle **high-resolution PCB images**.
 - Accurately classify various **thermal anomalies**.
+
+---
 
 ## 🤝 Contributing
 We welcome contributions from the community! To contribute:
@@ -91,8 +99,12 @@ We welcome contributions from the community! To contribute:
    git push origin feature-branch
 5. Create a Pull Request.
 
+---
+
 ## 📜 License
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+---
 
 ## 📞 Contact
 Have questions or suggestions? Reach out to us:  
